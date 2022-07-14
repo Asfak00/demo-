@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: white;
+}
+.head-name {
+    color: deeppink;
+    text-align: center;
+    margin-top: 150px;
+    font-size: 25px;
+}
+.container {
+    max-width: 600px;
+    height: 900px;
+    background-color: black;
+    margin: 0 auto;
+    margin-top: 60px;
+    border-radius: 200px 0px 200px 0px;
+}
+.container h3 {
+    text-align: center;
+    color: white;
+    padding: 20px;
+    font-size: 30px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.form-container form {
+    color: white;
+    margin-left: 50px;
+    font-size: 35px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+.form-container form input {
+    width: 90%;
+    height: 50px;
+    border-radius: 9px;
+    font-size: 25px;
+    padding-left: 10px;
+    color: black;
+    margin-top: 10px;
+    box-shadow: 1px 4px 5px aqua;
+    font-family: 'Roboto Mono', monospace;
+}
+.form-container form .gender {
+    width: 20px;
+    height: 20px;
+    box-shadow: none;
+    margin-left: 10px;
+}
+.form-container form ul {
+    list-style-type: square;
+    font-family: cursive;
+    font-size: 30px;
+    margin-left: 30px; 
+}
+.form-container form .btn {
+    width: 50%;
+    height: 60px;
+    margin-top: 25px;
+    margin-left: 100px;
+    background-color: #ffff;
+    border-radius: 25px;
+    font-size: 30px;
+    text-align: center;
+    opacity: 100%;
+    color: black;
+    box-shadow: 1px 4px 5px aqua;
+    font-weight: bold;
+}
